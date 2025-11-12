@@ -3,7 +3,7 @@ from dog import Dog
 
 if __name__ == "__main__":
     # Create an instance of the Animal class
-    generic_animal = Animal("Generic", "Unknown")
+    generic_animal = Animal("Kitty", "Feline")
     print(generic_animal)            # Test __str__
     generic_animal.speak()           # Test speak method
 
@@ -15,4 +15,4 @@ if __name__ == "__main__":
     # Print all animals
     print("All Animals:")
     for animal in Animal.all_animals:
-        print(animal)
+        print(f"  - {animal}")

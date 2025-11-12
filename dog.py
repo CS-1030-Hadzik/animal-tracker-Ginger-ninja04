@@ -14,4 +14,4 @@ class Dog(Animal):
         print("The dog barks.")
 
     def __str__(self):
-        return f"Kingdom: {self.kingdom}, Name: {self.name}, Species: {self.species}, Breed: {self.breed}"
+        return f"Kingdom: '{self.kingdom}', Name: '{self.name}', Species: '{self.species}', Breed: '{self.breed}'"
